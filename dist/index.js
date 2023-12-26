@@ -23,7 +23,9 @@ __export(src_exports, {
   add: () => add
 });
 module.exports = __toCommonJS(src_exports);
-var add = (a, b) => a + b;
+
+// src/functions.ts
+var add = ({ a, b }) => a + b;
 // Annotate the CommonJS export names for ESM import in node:
 0 && (module.exports = {
   add

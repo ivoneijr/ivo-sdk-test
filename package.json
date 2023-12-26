@@ -5,13 +5,17 @@
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
+  "homepage": "https://ivojr.com",
+  "repository": {
+    "url": "git+https://github.com/ivoneijr/ivo-sdk-test.git"
+  },
   "scripts": {
-    "build": "tsup src/index.ts --format cjs,esm --dts",
+    "build": "tsup",
     "lint": "tsc",
     "dev": "nodemon"
   },
   "keywords": [],
-  "author": "",
+  "author": "@ivoneijr",
   "license": "ISC",
   "devDependencies": {
     "@changesets/cli": "^2.27.1",

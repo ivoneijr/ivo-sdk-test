@@ -1,3 +1,8 @@
-declare const add: (a: number, b: number) => number;
+type AddParams = {
+    a: number;
+    b: number;
+};
 
-export { add };
+declare const add: ({ a, b }: AddParams) => number;
+
+export { type AddParams, add };
