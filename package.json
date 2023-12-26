@@ -12,7 +12,8 @@
   "scripts": {
     "build": "tsup",
     "lint": "tsc",
-    "dev": "nodemon"
+    "dev": "nodemon",
+    "publish": "npm publish --access=public"
   },
   "keywords": [],
   "author": "@ivoneijr",
